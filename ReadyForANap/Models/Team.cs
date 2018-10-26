@@ -19,5 +19,8 @@ namespace ReadyForANap.Models
 
         [DisplayName("Team Name")]
         public string TeamDescription { get; set; }
+
+        [DisplayName("Team Score")]
+        public int TeamScore { get; set; }
     }
 }
